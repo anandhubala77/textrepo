@@ -2,3 +2,5 @@ git init >initialize
 git status >list untracked files
 git add-A>add all untracked files to staging area
 git committ -m "message"> staging >local repo
+git remote add name "path of remote repo "
+git push -u name branch(master)
